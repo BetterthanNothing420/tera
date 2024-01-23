@@ -11,6 +11,7 @@ public class ujw{
               System.out.println("enter 3 to gst");
               System.out.println("enter 4 to cipher");
               System.out.println("enter 5 to decipher");
+              System.out.println("enter 6 to game");
               System.out.println("enter 99 for terminate");
               int ch= ob.nextInt();
               if(ch ==1)
@@ -23,6 +24,8 @@ public class ujw{
               cipher.encrypt();
               else if(ch ==5)
               decipher.decrypt();
+              else if(ch ==6)
+              uzzel.play();
               else if (ch == 99){
                   System.out.print('\u000C');
               System.exit(0);
